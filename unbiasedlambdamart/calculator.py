@@ -16,8 +16,8 @@ def test__get_query_boundaries():
 
 
 N_BINS = 1024 * 1024 * 8
-MIN_ARG = -50
-MAX_ARG = 50
+MIN_ARG = -25
+MAX_ARG = 25
 
 
 class Calculator:
