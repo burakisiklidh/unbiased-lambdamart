@@ -1,4 +1,4 @@
-CXX ?= g++-11
+CXX ?= g++-8
 
 libargsort.a: argsort.o
 	ar rcs libargsort.a argsort.o
@@ -8,4 +8,3 @@ argsort.o: argsort.cpp argsort.h
 
 clean:
 	rm -f libargsort.a argsort.o
-	rm -rf build
