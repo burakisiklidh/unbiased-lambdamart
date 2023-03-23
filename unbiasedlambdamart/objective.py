@@ -2,7 +2,7 @@ import numpy as np
 import lightgbm as lgb
 
 from .calculator import Calculator, MIN_ARG, MAX_ARG
-from .lambdaobj import get_unbiased_gradients_fixed_tplus, get_debiased_gradients
+from .lambdaobj import get_unbiased_gradients_fixed_tplus
 
 
 class DatasetWithCalculatorRanks0TPlusAndP(lgb.Dataset):
